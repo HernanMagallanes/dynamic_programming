@@ -50,9 +50,13 @@ def dym_grid_traveler(n, m, table={}):
 
 if __name__ == '__main__':
     # print(grid_traveler(3, 3))
-    # print(grid_traveler(9, 9))
-    # print(grid_traveler(18, 18))
+    # print(dym_grid_traveler(3, 3))
+    # 6
 
-    print(dym_grid_traveler(3, 3))
-    print(dym_grid_traveler(9, 9))
+    # print(grid_traveler(9, 9))
+    # print(dym_grid_traveler(9, 9))
+    # 12870
+
+    # print(grid_traveler(18, 18))
     print(dym_grid_traveler(18, 18))
+    # 2333606220

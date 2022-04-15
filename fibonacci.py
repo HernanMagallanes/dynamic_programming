@@ -40,8 +40,6 @@ def dynamic_fib(n, values=[]):
 
     return values[n]
 
-    pass
-
 
 if __name__ == '__main__':
     n = 40
