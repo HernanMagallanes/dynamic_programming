@@ -51,7 +51,6 @@ def all_construct_tab(target, word_bank):
 
                         table[i + len(word)].append(aux)
 
-    # pass
     return table[len(table) - 1]
 
 

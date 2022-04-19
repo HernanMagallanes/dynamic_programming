@@ -93,12 +93,6 @@ def can_construct_tab(target, word_bank):
     return table[len(table) - 1]
 
 
-def other_dict(target, arr):
-    print(target, arr)
-    # same but with dict {'letter':boolean}
-    pass
-
-
 if __name__ == '__main__':
     # string_target = 'abcdef'
     # word_bank = ['ab', 'abc', 'cd', 'def', 'abcd']
@@ -113,34 +107,9 @@ if __name__ == '__main__':
     # True
 
     string_target = 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeef'
-    word_bank =['e', 'ee', 'eeee', 'eeeee', 'eeeeee']
+    word_bank = ['e', 'ee', 'eeee', 'eeeee', 'eeeeee']
     # False
 
     print(can_construct(string_target, word_bank))
     print(can_construct_memo(string_target, word_bank))
     print(can_construct_tab(string_target, word_bank))
-
-'''
-    ex. 1
-    target= 'abcdef'
-     word_bank = ['ab','abc','cd','def','abcd'])
-
-abcdef ->
-
-[ab] -> cdef [cd]-> ef False
-[abc] -> def [def]-> '' True
-[abcd] -> ef False
-
-======================================
-
-    ex. 2
-    target= 'skateboard'
-     word_bank = ['bo','rd','ate','t','ska','sk','boar'])
-
-skateboard ->
-
-[sk]-> ateboard [ate]-> board [bo]-> ard False
-                              [boar]-> d False
-[sla]-> teboard [t]-> eboard False
-
-'''

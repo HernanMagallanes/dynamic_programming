@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aad212e0-76b1-44b4-8b6f-b210dbe7c58a" name="Default Changelist" comment="add gitignore">
-      <change afterPath="$PROJECT_DIR$/allConstruct.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bestSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/bestSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canConstruct.py" beforeDir="false" afterPath="$PROJECT_DIR$/canConstruct.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/canSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/canSum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countConstruct.py" beforeDir="false" afterPath="$PROJECT_DIR$/countConstruct.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridTraveler.py" beforeDir="false" afterPath="$PROJECT_DIR$/gridTraveler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/howSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/howSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_canSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_canSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5_bestSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/5_bestSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6_canConstruct.py" beforeDir="false" afterPath="$PROJECT_DIR$/6_canConstruct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_countConstruct.py" beforeDir="false" afterPath="$PROJECT_DIR$/7_countConstruct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8_allConstruct.py" beforeDir="false" afterPath="$PROJECT_DIR$/8_allConstruct.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -92,7 +92,6 @@ def best_sum_tab(target, arr):
     # table[arr[n] +i] append arr[n]
 
     for i in range(target + 1):
-        # print(f' index:{i} -> table[i]: {table[i]}')
 
         for n in range(len(arr)):
 

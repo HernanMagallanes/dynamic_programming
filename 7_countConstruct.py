@@ -52,11 +52,6 @@ def count_construct_memo(target, word_bank, memo={}):
             a = count_construct_memo(strip_L, word_bank, memo)
             counter += a
 
-    # if memo:
-    #     print('\nmemo')
-    #     for k, v in memo.items():
-    #         print(k, v)
-
     memo[target] = counter
     return counter
 
@@ -129,32 +124,3 @@ if __name__ == '__main__':
     print(count_construct(string_target, word_bank))
     print(count_construct_memo(string_target, word_bank))
     print(count_construct_tab(string_target, word_bank))
-
-'''
-    ex. 2
-    target= 'purple'
-    word_bank = ['purp','p','ur','le','purpl'])
-
-purple
-
-[purp]-> le [le] -> '' 1
-
-[p]-> urple [ur]-> ple [p]-> le [le]-> '' 1
-
-[purpl]-> e 0
-
- ========================================== 
- 
-    target= 'enterapotentpot'
-    ['a', 'p', 'ent', 'enter', 'ot', 'o', 't']
- 
-enterapotentpot
-                     
-[enter]-> apotentpot [a]-> potentpot [p]-> otentpot 
-
-[ot]-> entpot [ent]-> pot [p]-> ot [ot]-> '' 1
-                                   [o]-> t [t]-> '' 1
-
-[o]-> tentpot [t]-> entpot [ent]-> pot [p]-> ot [ot]-> '' 1
-                                                [o]-> t [t]-> '' 1
-'''
